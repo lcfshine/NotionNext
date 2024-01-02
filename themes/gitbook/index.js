@@ -131,11 +131,11 @@ const LayoutBase = (props) => {
                           <div className='py-4'>
                               <Catalog {...props} />
                               {slotRight}
-                              {router.route === '/' && <>
-                                  <InfoCard {...props} />
-                                  {siteConfig('GITBOOK_WIDGET_REVOLVER_MAPS', null, CONFIG) === 'true' && <RevolverMaps />}
-                                  <Live2D />
-                              </>}
+                              
+                              <InfoCard {...props} />
+                              {siteConfig('GITBOOK_WIDGET_REVOLVER_MAPS', null, CONFIG) === 'true' && <RevolverMaps />}
+                              <Live2D />
+                
                               {/* gitbook主题首页只显示公告 */}
                               <Announcement {...props} />
                           </div>
