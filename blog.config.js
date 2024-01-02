@@ -18,7 +18,7 @@ const BLOG = {
   CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || false, // 支持Menu 类型，从3.12.0版本起，各主题将逐步支持灵活的二级菜单配置，替代了原来的Page类型，此配置是试验功能、默认关闭。
 
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'lcfshine', // 您的昵称 例如 tangly1024
-  BIO: process.env.NEXT_PUBLIC_BIO || '廖诚富', // 作者简介
+  BIO: process.env.NEXT_PUBLIC_BIO || '给理想留点时间，熬过低估繁华自现', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://lcfshine.cn', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || '廖诚富, lcfshine,风微凉', // 网站关键词 英文逗号隔开
 
