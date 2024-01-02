@@ -85,10 +85,6 @@ const LayoutBase = (props) => {
                             </div>
 
                         </div>
-
-                        <div className='w-72 fixed left-0 bottom-0 z-20 bg-white'>
-                            <Footer {...props} />
-                        </div>
                     </div>) }
 
                     <div id='center-wrapper' className='flex flex-col justify-between w-full relative z-10 pt-14 min-h-screen'>
